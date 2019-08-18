@@ -13,8 +13,12 @@ for guessesTaken in range(1,7):
     elif guess > secretNumber:
         print("Your guess is a little high")
     else:
-        break   # This runs when they get the correct guess
+        break   # If the guess is neither higher nor lower than the secret number it must be equal to it
+                # in which case you want the program execution to break out of the for loop
+                
 
 if guess == secretNumber:
-    print("Good job! You guessed my secret number " + str(guessesTaken) + ' guesses!')
+    print("Good job! You guessed my secret number in {} guesses!".format(guessesTaken))
+else:
+    print("Nope, the number I was thinking of was {}".format(secretNumber))
     
