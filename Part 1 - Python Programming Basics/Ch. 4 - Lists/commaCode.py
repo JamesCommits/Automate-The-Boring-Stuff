@@ -1,6 +1,6 @@
 spam = ['apples', 'bananas', 'tofu', 'cats']
 
-def commaCode(someParameter):
+def commaCode(words):
     if len(words) == 1:
         return words[0]
     return '{}, and {}'.format(', '.join(words[:-1]), words[-1])
@@ -14,4 +14,4 @@ def commaCode(someParameter):
     # element is returned, unjoined.
 
     #'{}, and {}'.format{} inserts the comma-joined words and the last word into a template (complete with Oxford comma)
-    
+
