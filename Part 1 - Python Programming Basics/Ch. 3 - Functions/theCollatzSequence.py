@@ -11,4 +11,3 @@ def collatz(number):
 userNumber = input("What's your Collatz number?")
 userNumberCollatz = collatz(userNumber)
 if userNumberCollatz > 1:
-    
