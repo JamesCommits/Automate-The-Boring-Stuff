@@ -15,7 +15,7 @@ for guessesTaken in range(1,7):
     else:
         break   # If the guess is neither higher nor lower than the secret number it must be equal to it
                 # in which case you want the program execution to break out of the for loop
-                
+
 
 if guess == secretNumber:
     print("Good job! You guessed my secret number in {} guesses!".format(guessesTaken))
