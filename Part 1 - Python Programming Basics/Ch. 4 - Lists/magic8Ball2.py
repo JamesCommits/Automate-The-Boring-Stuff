@@ -2,6 +2,7 @@
 
 import random
 
+# Exceptions to indentations rules apply to lists in Python
 messages = ['It is certain,' 
             'It is decidedly so', 
             'Reply hazy...try again later', 
