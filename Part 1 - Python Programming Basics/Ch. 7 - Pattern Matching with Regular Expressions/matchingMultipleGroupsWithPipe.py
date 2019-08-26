@@ -23,3 +23,10 @@ batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
 mo = batRegex.search('Batmobile lost a wheel')
 print(mo.group())
 print(mo.group(1))
+
+# The method call mo.group() returns the full matched text 'Batmobile', while
+# mo.group(1) returns just the part of the matched text inside the first
+# parentheses group, 'mobile'.  By using the pipe character and grouping
+# parentheses, you can specify several alternative patterns you would
+# like your regex to match.
+
