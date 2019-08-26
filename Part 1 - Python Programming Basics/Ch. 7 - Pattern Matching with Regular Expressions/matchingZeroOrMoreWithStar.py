@@ -13,6 +13,6 @@ mo2 = batRegex.search('The Adventures of Batwoman')
 
 print(mo2.group())
 
-mo3 = batRegex.search('The Adventures of Batwowowowowman')
+mo3 = batRegex.search('The Adventures of Batwowowowoman')
 
 print(mo3.group())
